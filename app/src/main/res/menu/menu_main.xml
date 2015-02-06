@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hudsoft.crossingthepennines.MapsActivity" >
+
+    <!-- The menu with the options available -->
+
+    <item android:id="@+id/change_map_type"
+        android:title="@string/change_map_type" >
+        <!-- The Change map type option has a sub menu containing the map type options -->
+        <menu>
+            <item android:id="@+id/normal"
+                android:title="@string/normal" />
+            <item android:id="@+id/hybrid"
+                android:title="@string/hybrid" />
+            <item android:id="@+id/terrain"
+                android:title="@string/terrain" />
+            <item android:id="@+id/satellite"
+                android:title="@string/satellite" />
+        </menu>
+    </item>
+    <item android:id="@+id/showMyLocation"
+        android:title="@string/showMyLocation" />
+    <item android:id="@+id/viewRouteToggles"
+        android:title="@string/viewRouteToggles" >
+        <!-- The Change map type option has a sub menu containing the map type options -->
+        <menu>
+            <item android:id="@+id/road"
+                android:title="@string/road" />
+            <item android:id="@+id/crowFlies"
+                android:title="@string/crowFlies" />
+        </menu>
+    </item>
+    <item android:id="@+id/action_about"
+        android:title="@string/action_about"/>
+</menu>

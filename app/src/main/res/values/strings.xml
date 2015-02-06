@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crossing The Pennines</string>
+    <string name="splash">Splash Screen image here</string>
+    <string name="action_about">About</string>
+    <string name="title_activity_maps">Crossing the Pennines</string>
+    <string name="btnFacebook">CTP Facebook</string>
+    <string name="btnTwitter">CTP Twitter</string>
+    <string name="btnWebsite">CTP Website</string>
+    <string name="change_map_type">Change Map Type</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+    <string name="satellite">Satellite</string>
+    <string name="showMyLocation">Show My Location</string>
+    <string name="viewRouteToggles">Change Displayed Routes</string>
+    <string name="road">Road</string>
+    <string name="crowFlies">Direct</string>
+    <string name="title_activity_info">Info</string>
+    <string name="about">A Hudsoft project for the Milestone Society</string>
+    <string name="title_activity_about">About</string>
+
+</resources>
